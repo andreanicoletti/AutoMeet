@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AutoMeet</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div style="display: flex;">
+      <button id="time_tab_btn" style="background-color: #00FF00;">Orario</button>
+      <button id="people_tab_btn">Persone</button>
+    </div>
+
+    <div id="time_tab" style="padding: 20px 20px 20px 20px; display: block;">
+      <p>Inserire l'orario a cui fare il log out:</p>         
+      <input id="logout_time" placeholder="ora:minuti:secondi"/>                   
+      <button id="ok_time" type="button" style="margin-top: 10px;">OK</button>
+    </div>      
+
+    <div id="people_tab" style="padding: 20px 20px 20px 20px; display: none;">
+      <p>Inserire il numero di persone sotto il quale fare il log out:</p>         
+      <input id="logout_people" />                   
+      <button id="ok_people" type="button" style="margin-top: 10px;">OK</button>
+    </div>
+
+    <p id="error_text" style="margin: 10px 20px 20px 20px; color: #FF0000;"></p>
+
+    <script src="set_event.js" type="text/javascript"></script>     
+    <script src="popup.js" type="text/javascript"></script>
+
+  </body>
+</html>
