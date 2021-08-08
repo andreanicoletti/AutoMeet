@@ -10,7 +10,7 @@ chrome.runtime.onMessage.addListener((request, _, sendResponse) => {
         let domObserver = new MutationObserver((_) => {
             let currentCount = document.getElementsByClassName("wnPUne N0PJ8e")[0]
             console.log(currentCount)
-            if ( currentCount.textContent < count) { // span.wnPUne.N0PJ8e
+            if ( currentCount.textContent < count) {
                 logout()
             }
         })
