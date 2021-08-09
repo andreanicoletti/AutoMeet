@@ -8,7 +8,7 @@ chrome.runtime.onMessage.addListener((request, _, sendResponse) => {
         console.log("logout (people)")
         let count = request.count
         let domObserver = new MutationObserver((_) => {
-            let currentCount = document.getElementsByClassName("wnPUne N0PJ8e")[0]
+            let currentCount = document.getElementsByClassName("uGOf1d")[0]
             console.log(currentCount)
             if ( currentCount.textContent < count) {
                 logout()
