@@ -8,4 +8,11 @@ Per installare l'estensione andare sull'ultima release del progetto per scaricar
 
 ## Come usare l'estensione
 
-Per usare l'estensione una volta installata, basta cliccare la sua icona nella barra di Google Chrome (una volta che si è già dentro la videochiamata di Meet) e selezionare la modalità che si vuole, inserendo o il numero di persone o l'orario a cui chiudere la videochiamata e premere il tasto "OK", l'estensione uscirà automaticamente da tutte le videochiamate di Meet aperte all'evento selezionato.
+Per usare l'estensione una volta installata, basta cliccare la sua icona nella barra di Google Chrome (una volta che si è già dentro la videochiamata di Meet) e selezionare la modalità che si vuole, inserendo o il numero di persone o l'orario a cui chiudere la videochiamata e premere il tasto "OK", l'estensione uscirà automaticamente da Meet.
+
+## Avvertenze
+
+- Per il momento l'estensione funziona solamente usando Meet in lingua italiana.
+- Allo scattare dell'evento selezionato l'estensione farà chiudere automaticamente tutte le chiamate di Meet aperte in quel momento sul dispositivo.
+- Per la funzione dell'estensione che riguarda il numero di persone, viene utilizzato un contatore visualizzato a schermo nella videochiamata, per un corretto funzionamento assicurarsi che le videochiamate di Meet siano tenuto a schermo intero e che il suddetto contatore sia visibile.
+- L'estensione è aggiornata a supportare Google Meet fino ad Agosto 2021, per versioni successive potrebbe non essere funzionante.
